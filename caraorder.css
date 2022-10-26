@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+
+}
+
+nav{
+	display: flex;
+	background-color: black;
+	color: white;
+	justify-content: space-between;
+	padding: 25px;
+	align-items: center;
+}
+
+nav h4 a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul{
+	display: flex;
+	color: white;
+	list-style: none;
+	justify-content: space-around;
+	padding-right: 1px;
+}
+
+nav ul li{
+	margin: 0 50px;
+}
+
+nav  ul li a{
+	color: white;
+	text-decoration: none;
+	justify-content: space-around;
+}
+
+nav ul li a:hover{
+	color: rgb(190,190,190);
+}
+
+.judul{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.cara-order{
+	overflow: hidden;
+	width: 20%;
+	padding: 25px;
+	border: 2px solid #333;
+	margin-top: 80px;
+	margin-left: 505px;
+	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-right: 45px;
+	border-radius: 30px;
+}
+
+.cara-order ul{
+	list-style: none;
+}
+
+footer{
+	width: 100%;
+	background-color: black;
+	margin-top:101px;
+}
+
+footer ul li{
+	color: white;
+	padding-top: 10px;
+	list-style: none;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+footer ul li a:hover{
+	color: rgb(190,190,190);
+}
+
+.ngisor{
+	display: flex;
+	justify-content: space-between;
+}

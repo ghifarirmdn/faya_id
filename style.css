@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	display: flex;
+	background-color: black;
+	color: white;
+	justify-content: space-between;
+	padding: 25px;
+	align-items: center;
+}
+
+nav h4 a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul{
+	display: flex;
+	color: white;
+	list-style: none;
+	justify-content: space-around;
+	padding-right: 1px;
+}
+
+nav ul li{
+	margin: 0 50px;
+}
+
+nav  ul li a{
+	color: white;
+	text-decoration: none;
+	justify-content: space-around;
+}
+
+nav ul li a:hover{
+	color: rgb(190,190,190);
+}
+
+div.background-image{
+	background-image: url(home.JPG);
+	background-size: cover;
+	width: 100%;
+	height: 590px; 
+}
+
+.produk-home{
+	padding-top: 250px;
+	padding-left: 30px;
+}
+
+.garis1{
+	padding-bottom: 13px;
+}
+
+button{
+	outline: none;
+}
+
+.button{
+	padding-top: 20px;
+	padding-left: 60px;
+}
+
+.button button{
+	background-color: black;
+	color: rgb(250,240,255);
+	padding: 12px 35px;
+	border: 1px solid black;
+	font-size: 18px;
+	border-radius: 50px;
+	transition: .6s;
+	cursor: pointer;
+}
+
+.button button:hover{
+	background: transparent;
+	color: black;
+}
+
+.row{
+	margin-left: 50px;
+}
+
+.kemeja-terbaik{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.best-kemeja-kiri img{
+	width: 200px;
+	height: 250px;
+	margin-left: 40px;
+}
+
+.best-kemeja-kiri{
+	position: relative;
+	overflow: hidden;
+	width: 20%;
+	padding: 25px;
+	border: 2px solid #333;
+	margin-top: 120px;
+	margin-left: 30px;
+	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-right: 45px;
+}
+
+.best-kemeja-kiri h3{
+	text-align: center;
+	margin-left: 20px;
+}
+
+.button2{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.button2 button{
+	background-color: black;
+	color: rgb(250,240,255);
+	padding: 12px 35px;
+	border: 1px solid black;
+	font-size: 18px;
+	border-radius: 50px;
+	transition: .6s;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.button2 button:hover{
+	background: transparent;
+	color: black;
+}
+
+#kiri{
+	float: left;
+	width: 250px;
+	margin: 100px 0 0 70px;
+
+}
+
+.background-image2{
+	position: absolute;
+	margin-top: 600px;
+	background-image: url(DSCF0149.JPG);
+	background-size: cover;
+	width: 100%;
+	height: 590px;
+}
+
+.background-image2 .produk-home2 h2{
+	margin-left: 45px;
+}
+
+.produk-home2{
+	margin-left: 30px;
+	padding-top: 250px;
+}
+
+.garis2{
+	padding-bottom: 13px;
+}
+
+.button3{
+	outline: none;
+}
+
+.button3{
+	padding-top: 20px;
+	padding-left: 60px;
+}
+
+.button3{
+	background-color: black;
+	color: rgb(250,240,255);
+	padding: 12px 35px;
+	border: 1px solid black;
+	font-size: 18px;
+	border-radius: 50px;
+	transition: .6s;
+	cursor: pointer;
+}
+
+.button3 button:hover{
+	background: transparent;
+	color: black;
+}
+
+.row2{
+	margin-top: 1350px;
+	margin-left: 48px;
+}
+
+.sweater-terbaik{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 1250px;
+	position: absolute;
+	margin-left: 500px;
+}
+
+.row3{
+	margin-left: 48px;
+	position: relative;
+	bottom: -150px;
+}
+
+.best-seller{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	height: 50px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 650px;
+}
+
+.best-seller h2{
+	margin-left: 35px;
+}
+
+.sc-gambar{
+	margin-left: 500px;
+}
+
+footer{
+	width: 100%;
+	background-color: black;
+	margin-top: 2750px;
+	
+}
+
+footer ul li{
+	color: white;
+	padding-top: 10px;
+	list-style: none;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+footer ul li a:hover{
+	color: rgb(190,190,190);
+}
+
+.ngisor{
+	display: flex;
+	justify-content: space-between;
+}
